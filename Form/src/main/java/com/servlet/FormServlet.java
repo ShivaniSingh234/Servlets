@@ -18,7 +18,7 @@ public class FormServlet extends HttpServlet {
 	        req.setAttribute("name", name);
 	        req.setAttribute("email", email);
 
-	        // Forward to result.jsp
+	        
 	        RequestDispatcher rd = req.getRequestDispatcher("view");
 	        rd.forward(req, res);
 	    }
