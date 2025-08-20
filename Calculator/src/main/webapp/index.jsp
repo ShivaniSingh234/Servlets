@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP Calculator</title>
+    <title>Calculator</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -79,7 +79,7 @@
                     double calcResult = 0;
                     char operator = ' ';
                     
-                    // Find operator
+                    
                     if(expression.contains("+")) operator = '+';
                     else if(expression.contains("-")) operator = '-';
                     else if(expression.contains("*")) operator = '*';
